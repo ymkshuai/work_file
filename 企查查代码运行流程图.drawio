@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="_Nb3V-MvUtCO8nNoWYbR">
+    <mxGraphModel dx="1501" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-3" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="企查查列表页" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-5" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="txt文件获取关键词，去调用搜索接口请求数据" vertex="1">
+          <mxGeometry height="100" width="100" x="440" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-11" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="存储到List数据库中（qccListData）" vertex="1">
+          <mxGeometry height="100" width="100" x="630" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-8" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="企查查详情页" vertex="1">
+          <mxGeometry height="80" width="80" x="100" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-10" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="调用数据库获取公司的id" vertex="1">
+          <mxGeometry height="80" width="80" x="630" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-13" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="请求详情页数据" vertex="1">
+          <mxGeometry height="110" width="110" x="820" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-18" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="存储到数据库中(qccDetailsData)" vertex="1">
+          <mxGeometry height="120" width="120" x="970" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-16" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-14" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="企查查详情页子接口数据" vertex="1">
+          <mxGeometry height="80" width="80" x="110" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-20" edge="1" parent="1" source="nPFtmxlqQLAGpZAGuPka-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nPFtmxlqQLAGpZAGuPka-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="获取公司id，去重，再对比已经爬取的id去重" vertex="1">
+          <mxGeometry height="80" width="80" x="990" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="nPFtmxlqQLAGpZAGuPka-19" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="请求数据，存储到数据库中，每个接口单独存储数据集合（qccDetailsDataApi1,.......&lt;div&gt;）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="1250" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
